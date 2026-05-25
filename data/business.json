@@ -1,0 +1,71 @@
+{
+  "name": "Example Local Plumbing",
+  "legalName": "Example Local Plumbing Pty Ltd",
+  "primaryService": "Emergency plumbing",
+  "tagline": "Fast plumbing help for blocked drains, burst pipes, hot water faults, and urgent repairs across the north side.",
+  "siteUrl": "https://example-local-plumbing.pages.dev",
+  "city": "Brisbane",
+  "region": "QLD",
+  "country": "AU",
+  "address": {
+    "streetAddress": "123 Example Street",
+    "addressLocality": "Brisbane",
+    "addressRegion": "QLD",
+    "postalCode": "4000",
+    "addressCountry": "AU"
+  },
+  "phoneDisplay": "07 5555 0100",
+  "phoneHref": "+61755550100",
+  "email": "quotes@example-local-plumbing.test",
+  "priceRange": "$$",
+  "openingHours": [
+    "Mo-Fr 07:00-17:00",
+    "Sa 08:00-12:00"
+  ],
+  "services": [
+    {
+      "name": "Blocked drain clearing",
+      "description": "Drain inspections, jetting, and practical next steps for homes and small businesses."
+    },
+    {
+      "name": "Burst pipe repairs",
+      "description": "Urgent isolation and repair work with clear advice before permanent fixes are started."
+    },
+    {
+      "name": "Hot water faults",
+      "description": "Diagnosis for electric, gas, and solar hot water systems before replacement is recommended."
+    }
+  ],
+  "serviceAreas": [
+    {
+      "name": "Brisbane CBD",
+      "urlPath": "/areas/brisbane-cbd/",
+      "note": "High-intent city landing page candidate",
+      "priority": "Core"
+    },
+    {
+      "name": "Fortitude Valley",
+      "urlPath": "/areas/fortitude-valley/",
+      "note": "After-hours callout and apartment work",
+      "priority": "Core"
+    },
+    {
+      "name": "New Farm",
+      "urlPath": "/areas/new-farm/",
+      "note": "Older homes, strata, and maintenance calls",
+      "priority": "Expansion"
+    },
+    {
+      "name": "Hamilton",
+      "urlPath": "/areas/hamilton/",
+      "note": "Premium residential and renovation support",
+      "priority": "Expansion"
+    }
+  ],
+  "trustSignals": [
+    "Licensed and insured",
+    "Local call handling",
+    "No obligation quote",
+    "Clear scope before work starts"
+  ]
+}

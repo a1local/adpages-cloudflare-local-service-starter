@@ -1,0 +1,12 @@
+category,item,owner,status,notes
+Business data,Replace fictional business name and legal name,Client,TBC,Must match real-world trading name
+Business data,Replace phone email and address,Client,TBC,Phone must be click-to-call tested on mobile
+Schema,Validate LocalBusiness JSON-LD,Implementer,TBC,Use Rich Results Test or schema validator before launch
+SEO,Set canonical URL to production domain,Implementer,TBC,Do not leave pages.dev URL after custom domain launch
+Cloudflare Pages,Set build command to blank or npm run check,Implementer,TBC,Output directory should be public
+Cloudflare Pages,Confirm production branch,Implementer,TBC,Usually main after review
+Cloudflare Pages,Attach custom domain and verify DNS,Client,TBC,Wait for SSL certificate to issue
+Privacy,Confirm no analytics cookies or hidden tracking,Implementer,TBC,This starter ships with none
+Links,Check all CTA href values and UTM examples,Implementer,TBC,UTM params should be visible in URLs only
+Content,Replace placeholder services and service areas,Client,TBC,Use real proof and real coverage areas
+QA,Run npm run check and npm run smoke,Implementer,TBC,Run before pushing template changes

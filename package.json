@@ -1,0 +1,27 @@
+{
+  "name": "adpages-local-service-starter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Dependency-free Cloudflare Pages starter for local service landing pages.",
+  "type": "module",
+  "homepage": "https://a1local.com.au/extensions/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a1local/adpages-cloudflare-local-service-starter.git"
+  },
+  "bugs": {
+    "url": "https://a1local.com.au/extensions/support/"
+  },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "package-local": "npm run check && npm run smoke"
+  },
+  "keywords": [
+    "cloudflare-pages",
+    "local-business",
+    "landing-page",
+    "static-site"
+  ],
+  "license": "MIT"
+}
